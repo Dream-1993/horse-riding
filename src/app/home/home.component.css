@@ -1,0 +1,62 @@
+/* Basic styling for the entire home component */
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for each section to make it stand out and have some spacing */
+  section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for section headers */
+  section h2 {
+    color: #5a3d99;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for buttons within sections */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5a3d99;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #4e347e;
+  }
+  
+  /* Style for social media icons */
+  .social-icons a {
+    margin-right: 10px;
+    color: #5a3d99;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .social-icons a:hover {
+    color: #4e347e;
+  }
+  
+  /* Contact information styling */
+  .contact-section address {
+    font-style: normal;
+    line-height: 1.6;
+  }
+  
